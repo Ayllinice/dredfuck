@@ -6,12 +6,10 @@ from aiogram import Bot, Dispatcher, types
 # log
 from aiogram.utils import executor
 
-import config
-
 logging.basicConfig(level=logging.INFO)
 
 # bot init
-bot = Bot(token=config.TOKEN)
+bot = Bot(token='5551958829:AAFdEvUDIhqcoS2iDUNmpklfCUoQ7staZ0Y')
 dp = Dispatcher(bot)
 
 
